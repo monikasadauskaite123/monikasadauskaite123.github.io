@@ -1,0 +1,20 @@
+ .klase {color:red; text-align:center; font-size:45px;}
+        #vardas {font-family:Arial, Helvetica, sans-serif; font-style:italic; text-align:right;}
+.pavadinimas {color:greenyellow;}
+table {
+    border: 1px solid; 
+    padding:8px;
+    border-collapse: collapse;
+    width:90%;
+   
+    margin:auto;
+}
+td, th {
+    border: 1px solid; 
+    padding:8px;
+    
+   
+    margin:auto;
+}
+.eilute {height: 200pt; background-color: aqua;}
+.nuotrauka {text-align: center; vertical-align: center; }

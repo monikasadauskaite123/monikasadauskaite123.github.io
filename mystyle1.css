@@ -1,0 +1,22 @@
+body {background-image: url('fonas.jpg')}
+.antraste {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    font-size: 20pt;
+}
+p {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    margin-left: 10%; 
+    margin-right: 10%;}
+table {
+    padding:8px;
+    margin: auto ;
+    border: 3pt solid;
+    border-color:#663300;
+    background-color: #bf8040;
+    margin-top: 5%;
+}
+th {font-size: 20px;}
+#vardas {font-size: 15pt;}
+.table {margin-left: 80%; }

@@ -1,0 +1,28 @@
+.antraste1 {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    margin-top: 5%;
+    font-size: 40pt;
+}
+.svarbu {
+    font-size: 20pt;
+    font-style: bold;
+}
+body {background-image: url('fonas4.jpg')}
+img {margin-left: 2%;
+    border: 3pt solid;
+    border-color: #00b33c;
+}
+.lentele {
+    
+    font-size: 15pt;
+}
+table {
+    background-color: #ccffdc;
+    margin: 2%;
+    border: 3pt solid;
+    border-color: #00b33c;
+}
+th {padding-top: 2%;}
+#vardas {font-size: 15pt;}
+.table {margin-left: 80%; }
