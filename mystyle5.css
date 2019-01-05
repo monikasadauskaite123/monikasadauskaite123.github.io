@@ -1,0 +1,106 @@
+body {background-image: url("physicsbg.jpg");}
+.pagrindinis 
+{
+    box-shadow: 5px 10px 18px #888888;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 80%;
+}
+h1 
+{
+    border-bottom: #3973ac solid; 
+    padding-left: 20px;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.lentele
+{
+    padding: 10px;
+    background-color:#ccddff;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-color: white;
+}
+.meniu 
+{
+    margin-left: 85%;
+    padding-bottom: 20px;
+}
+.article 
+{
+    box-shadow: 5px 10px 18px #888888;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#ccddff;
+    width: 55%;
+}
+.tekstas 
+{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.antraste
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+a {text-decoration: none; color: black;}
+#pabaiga 
+{
+    color: white;
+    font-size: 30px;
+}
+.img
+{
+    box-shadow: 5px 10px 18px #888888;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tekstas1
+{
+    padding-left: 30px;
+    padding-right: 20px;
+   
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+ul
+{
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+h2
+{
+    padding-left: 30px;
+}
+.img1
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.eilute
+{
+    padding-left: 35px;
+}
+a:hover
+{
+    color: #3973ac;
+}
