@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="kurybineuzd.css">
+    </head>
+    <body>
+        <div id="divas">
+            <h1>Užduotys!</h1>
+            <div class="klase">
+                <p>Pirma: išmokime romėniškus skaičius.Koks čia skaičius?</p>
+                <p>IV</p>
+                <input id="vienas">
+                <button id="du" onclick=funkcija1()>Tikrink</button>
+            </div>
+            <div class="klase">
+                <p>Antra: apskaičiuok.</p>
+                <p>10*10+(10+10)+10/10</p>
+                <input id="trys">
+                <button id="keturi" onclick=funkcija2()>Tikrink</button>
+            </div>
+            <div class="klase">
+                <p>Trečia: Kiek veidų matai?</p>
+                <img src="veidai.jpeg" height="500">
+                <p><input id="penki"></p>
+                <button id="sesi" onclick=funkcija3()>Tikrink</button>
+            </div>
+            <div class="klase">
+                <p>Ketvirta: paversk į kg/m^3</p>
+                <p>1.542 g/cm^3=</p>
+                <input id="septyni"> 
+                <button id="astuoni" onclick=funkcija4()>Tikrink</button>
+            </div>
+            <div class="klase">
+                <p>Penkta: ar tau patiko?:)</p>
+                <input id="devyni"> 
+                <button id="desimt" onclick=funkcija5()>Tikrink</button>
+            </div>
+        </div>
+        <script>
+            function funkcija1()
+                {
+                    if (document.getElementById("vienas").value==4)
+                        alert("Teisingai");
+                    else alert("Neteisingai");
+                    console.log(document.getElementById("vienas").value==4)
+                }
+            function funkcija2()
+                {
+                    if(document.getElementById("trys").value==121)
+                        alert("Teisingai");
+                    else alert("Neteisingai");
+                }
+            function funkcija3()
+            {
+                if(document.getElementById("penki").value>9)
+                    alert("Galbūt teisingai");
+                else
+                    alert("Skaičiuok dar kartą!");
+            }
+            function funkcija4()
+                {
+                    if(document.getElementById("septyni").value==1542)
+                        alert("Teisingai");
+                    else alert("Neteisingai");
+                }
+            function funkcija5()
+                {
+                    if(document.getElementById("devyni").value=="taip")
+                        alert("Teisingai");
+                    else alert("Neteisingai");
+                }
+        </script>
+    </body>
+</html>
